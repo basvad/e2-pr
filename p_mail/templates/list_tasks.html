@@ -1,0 +1,12 @@
+<h2>Последние 10 задач</h2>
+{% if tasks %}
+<ol>
+    {% for task in tasks %}
+        <li>{{ task }}</li>
+    {% endfor %}
+</ol>
+{% else %}
+    <p>Задач нет!</p>
+{% endif %}
+
+<a href="\">На главную</a>

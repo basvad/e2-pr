@@ -1,0 +1,6 @@
+<form action="" method="post">
+    <!--защита против Cross Site Request Forgeries-->
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Отправить" />
+</form>
