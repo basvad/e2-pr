@@ -25,7 +25,7 @@ SECRET_KEY = '(ckv&djeceirl171*6j73yr)es^xh-^z#i-8sn_86fy2#%2jm%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vast-thicket-56179.herokuapp.com']
 
 
 # Application definition
